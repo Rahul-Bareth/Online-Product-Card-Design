@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%; 
+  background: linear-gradient(135deg, #80e0d8, #2ced76);
+}
+  
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 15px;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: none;
+}
+
+.image-container {
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+
+}
+
+.image1{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.icon {
+ position: absolute;
+ top: 7px;
+ left: 7px;
+ font-size: 20px;
+ color: rgb(114, 190, 241);
+}
+
+.text-container{
+  margin-top: 5px;
+  text-align: center;
+  line-height: 28px;
+}
+
+ 
+.heading{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.description {
+  color: rgb(34, 33, 33);
+}
+
+.price {
+  color: rgb(235, 176, 14);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.button {
+  text-align: center;
+}
+
+.add-btn {
+ margin-top: 3px;
+ padding: 6px 14px;
+ background-color: rgb(228, 180, 20);
+ border: none;
+ color: white;
+ font-weight: 500;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+.add-btn:hover {
+  background-color: rgb(5, 111, 111);
+  transition: 0.3s;
+}
